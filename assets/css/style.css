@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #414141
+}
+
+img.-circle {
+    min-width: ;width: 128px;
+    height: 128px;
+    border-radius: 64px;
+}
+
+img.-circle-sm {
+    min-width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.shadowed{
+    box-shadow: 0px 0px 24px -8px #414141; 
+}
+
