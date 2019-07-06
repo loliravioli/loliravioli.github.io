@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="404" height="128" viewBox="0 0 404 128">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="404" height="119" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="136" height="125" fill="none"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="../../../../Downloads/facebookicon.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 224 224">
+      <image width="224" height="224" xlink:href="../../../../Downloads/githubicon.png"/>
+    </pattern>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-113 -218)">
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(113 224)" clip-path="url(#clip-path)">
+      <g transform="translate(-92 -224)">
+        <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(92 224)" fill="#fff" stroke="#fffbfb" stroke-width="1">
+          <rect width="116" height="119" stroke="none"/>
+          <rect x="0.5" y="0.5" width="115" height="118" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(44 -224)">
+        <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(92 224)" fill="#fff" stroke="#fffbfb" stroke-width="1">
+          <rect width="116" height="119" stroke="none"/>
+          <rect x="0.5" y="0.5" width="115" height="118" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(180 -224)">
+        <g id="Rectangle_1-3" data-name="Rectangle 1" transform="translate(92 224)" fill="#fff" stroke="#fffbfb" stroke-width="1">
+          <rect width="116" height="119" stroke="none"/>
+          <rect x="0.5" y="0.5" width="115" height="118" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(113 218)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-88 -218)">
+        <g id="facebookicon" transform="translate(88 218)" stroke="#fff5f5" stroke-width="1" fill="url(#pattern)">
+          <rect width="125" height="125" stroke="none"/>
+          <rect x="0.5" y="0.5" width="124" height="124" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="githubicon" transform="translate(253 221)" fill="url(#pattern-2)">
+      <path d="M 124.5 124.5 L 0.5 124.5 L 0.5 0.5 L 124.5 0.5 L 124.5 124.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 124 L 124 124 L 124 1 L 1 1 M 0 0 L 125 0 L 125 125 L 0 125 L 0 0 Z" stroke="none" fill="#fffbfb"/>
+    </g>
+  </g>
+</svg>
