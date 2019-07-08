@@ -1,6 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #414141;
+    background-color: white;
+}
+
+.white-box {
+    background-color: white;
 }
 
 img.-circle {
@@ -28,8 +33,12 @@ img.-circle-sm {
 }
 
 .hero-title {
-    font-weight: 500;
-    font-size: 65px;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.-content{
+    text-align: center;
 }
 
 .main-screen .-content {
@@ -44,7 +53,7 @@ img.-circle-sm {
 
 @media (max-width:600px){
     .main-screen .-right-image-container {
-        display: none{
+        display: none;
             
         }
     }
@@ -89,6 +98,30 @@ img.-circle-sm {
     box-sizing: border-box;
     width: 259px;
 }
+.recommendation {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation > * {
+    margin: auto;
+}
+
+.recommendation img.-circle {
+    z-index: 100;
+}
+
+.recommendation .-body {
+    padding: 24px;
+    padding-top: 88px;
+    margin-top: -64px;
+}
+
+.recommendation .-name {
+    font-weight: bold;
+    color: #B8B8B8;
+}
+
 
 @media (max-width: 1440px) {
     .grid-container .row .col {
@@ -159,8 +192,35 @@ img.-circle-sm {
 }
 
 @media all and (max-width: 479px) {
-    .employment-history-item {
+    .employment-history-entry img {
+        display: none;
+    }
         margin: 0px 20px 20px 20px;
+    }
+
+    .experience-screen {
+        margin-top: 30px;
+    }
+    .employment-history-entry{
+        display: inline-block;
+    }
+    
+    .employment-history-entry{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .employment-history-entry .-body{
+        margin-left: 20px;
+    padding: 0px 15px;
+    max-width: 500px;
+
+    }
+
+    .recommendation-place-holder {
+        min-width: 70%;
+
     }
 
     .employment-history-item img.-circle-sm {
@@ -174,9 +234,11 @@ img.-circle-sm {
 /* End of Employment History Styles */
 
  .fade-in-right {
-     animation-duration: 1.5s;
-     animation-name: fadeinright;
+    animation-name: fadeinright;
+   animation-duration: 1.5s;
  }
+
+     
 
  @keyframes fadeinright {
      0% {
